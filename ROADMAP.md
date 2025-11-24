@@ -5,9 +5,9 @@ This roadmap outlines the features to be implemented based on the mfx® Rail for
 # Part 1: Decoder Implementation
 
 ## 1. Signal Reception (Physical & Data Link Layer)
-- [ ] Implement rail signal decoding (square wave alternating voltage processing)
-- [ ] Implement bit decoding (biphase mark decoding, 10 kBaud)
-- [ ] Implement synchronization pattern detection (01110 with violations)
+- [x] Implement rail signal decoding (square wave alternating voltage processing)
+- [x] Implement bit decoding (biphase mark decoding, 10 kBaud)
+- [x] Implement synchronization pattern detection (01110 with violations)
 - [ ] Implement bit stuffing removal (remove 0 after 8 ones)
 - [ ] Implement data frame parsing (Address, Commands, Checksum)
 - [ ] Implement CRC checksum verification (Polynomial x^8 + x^2 + x + 1)
